@@ -40,6 +40,7 @@ var gentooArchitectureNames = map[int]string{
 	osarch.ARCH_64BIT_POWERPC_BIG_ENDIAN:    "ppc64",
 	osarch.ARCH_64BIT_POWERPC_LITTLE_ENDIAN: "ppc64le",
 	osarch.ARCH_64BIT_S390_BIG_ENDIAN:       "s390x",
+	osarch.ARCH_64BIT_LOONGARCH:             "loong",
 }
 
 var openwrtArchitectureNames = map[int]string{
